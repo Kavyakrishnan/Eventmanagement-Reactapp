@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from './Header'
 
 const Searchevent = () => {
   return (
     <div>
-
+<Header/>
 
 <div className="Container">
     <div className="row g-2">
