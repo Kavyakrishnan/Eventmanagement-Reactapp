@@ -9,7 +9,7 @@ const View = () => {
           "date"    :"24/04/2014",
           "venue" :"Chengannur",
           "organiser" :"Hari", 
-          "contactNo" :"9876543210"
+          "contactno" :"9876543210"
           
     
         },
@@ -19,7 +19,7 @@ const View = () => {
             "date"    :"24/03/2014",
             "venue" :"pathanamthitta",
             "organiser" : "Sudhi",
-            "contactNo" :"9876543210",
+            "contactno" :"9876543210",
             
       
           },
@@ -29,7 +29,7 @@ const View = () => {
             "date"    :"23/03/2018",
             "venue" :"Ernakulam",
             "organiser" : "Vipin",
-            "contactNo" :"9876543210"
+            "contactno" :"9876543210"
             
       
           },
@@ -68,7 +68,7 @@ const View = () => {
            <td>{value.date}</td>
            <td>{value.venue}</td>
            <td>{value.organiser}</td>
-           <td>{value.contactNo}</td>
+           <td>{value.contactno}</td>
       
             </tr>
           })}

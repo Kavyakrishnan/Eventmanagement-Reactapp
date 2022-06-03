@@ -8,7 +8,7 @@ const Addevent = () => {
     var[organiser,setOrganiser]=useState("");
     var[contactno,setContactno]=useState("");
     const subData=()=>{
-        const data={"name":name,"data":date,"venue":venue,"organiser":organiser,"contactno":contactno}
+        const data={"name":name,"date":date,"venue":venue,"organiser":organiser,"contactno":contactno}
         console.log(data)
     }
 
